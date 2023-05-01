@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/texte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bonjour"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_gravity="center"
+        android:text="Cliquer moi (btn 1)"
+        android:onClick="onButton1Click"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_gravity="center"
+        android:text="Cliquer moi (btn 2)"
+        />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_gravity="center"
+        android:text="Cliquer moi (btn 3)"
+        />
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_gravity="center"
+        android:text="Cliquer moi (btn 4)"
+        />
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_gravity="center"
+        android:text="info+retour"
+        />
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_gravity="center"
+        android:text="info+fin"
+        />
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_gravity="center"
+        android:text="cours"
+        />
+
+</LinearLayout>
